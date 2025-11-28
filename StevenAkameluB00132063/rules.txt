@@ -1,0 +1,19 @@
+POS tags
+DT  NN  NNS  VB  VBZ  JJ
+
+# Grammar rules
+S -> NP VP
+
+# Noun Phrase rules
+NP -> DT NN
+NP -> DT JJ NN
+NP -> DT NNS
+
+# Verb Phrase rules
+VP -> VB NP
+VP -> VBZ NP
+VP -> VB NP PP
+VP -> VBZ NP PP
+
+# Prepositional Phrase rules
+PP -> IN NP

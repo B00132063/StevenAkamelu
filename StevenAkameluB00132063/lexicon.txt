@@ -1,0 +1,38 @@
+the order i have my lexicon.txt file as word, POS, root number 
+Eg: queens NNS queen pl
+queens is plural
+POS is NNS (plural noun)
+root word is queen
+
+
+# Determiner (a modifying word that determines the kind of reference a noun or noun group has)
+# for example a, the, every
+the DT the sg  # "the" is a determiner
+a DT a sg      # "a" is a determiner
+
+# Singular nouns (A singular noun is a word that names one person, place, thing, or idea)
+king NN king sg  # "king" is a singular noun
+cat NN cat sg   # "cat" is a singular noun
+castle NN castle sg # for PP sentences Eg: "in the castle"
+
+
+# Plural nouns (A plural noun is a word that represents more than one person, place, thing, or idea)
+kings NNS king pl   # "kings" is a plural noun, root is "king"
+
+# Adjective (An adjective is a word that describes or modifies a noun or pronoun, providing more information about its qualities, characteristics, or state)
+new JJ new sg    # "new" is an adjective
+
+# Verbs (A verb is a word that describes an action, occurrence, or state of being)
+like VB like pl
+likes VBZ like sg
+
+dislike VB dislike pl
+dislikes VBZ dislike sg
+
+# Prepositions (start PP)
+with IN with sg       # "with the king"
+in   IN in   sg       # "in the castle"
+
+
+
+
