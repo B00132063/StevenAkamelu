@@ -1,0 +1,61 @@
+openapi: 3.0.3
+info:
+  title: API Title
+  version: "1.0"
+servers:
+- url: https://api.server.test/v1
+paths:
+  /test:
+    get:
+      operationId: test_get
+      responses:
+        "200":
+          description: OK
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+  /example:
+    get:
+      description: ""
+      operationId: example_get
+      parameters: []
+      responses:
+        "200":
+          description: OK
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+  /getSingleProduct:
+    get:
+      description: ""
+      operationId: get_single_product_get
+      parameters: []
+      responses:
+        "200":
+          description: OK
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+  /getAllProd:
+    get:
+      description: ""
+      operationId: get_all_prod_get
+      parameters: []
+      responses:
+        "200":
+          description: OK
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+  /insertNewProduct:
+    get:
+      description: ""
+      operationId: insert_new_product_get
+      parameters: []
+      responses:
+        "200":
+          description: OK
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+  /search:
+    get:
+      description: ""
+      operationId: search_get
+      parameters: []
+      responses:
+        "200":
+          description: OK
+      x-openapi-router-controller: swagger_server.controllers.default_controller
+components: {}
+
